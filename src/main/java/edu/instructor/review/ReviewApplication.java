@@ -1,4 +1,4 @@
-package edu.course.review;
+package edu.instructor.review;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

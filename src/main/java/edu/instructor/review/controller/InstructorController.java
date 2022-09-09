@@ -20,24 +20,6 @@ public class InstructorController {
     private ReviewService reviewService;
 
 
-    /*
-    1 - get all the instructors (done)
-
-    2 - get all the reviews for the instructor (done)
-
-    3 - add a review  (done)
-
-    4 - delete review (done)
-
-    5 - edit review (done)
-
-    6 - add a new instructor (done)
-
-    7 - delete an instructor
-
-     */
-
-
     @GetMapping("/instructors")
     public List<Instructor> getInstructors(){
 
@@ -121,10 +103,6 @@ public class InstructorController {
 
         return instructorService.getAllInstructors();
     }
-
-
-
-
 
 
 
